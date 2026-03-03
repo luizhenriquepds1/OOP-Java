@@ -38,6 +38,7 @@ public class ExemploSintaxe {
         for (int contador = 1; contador <= 5; contador++) {
             System.out.println("Número: " + contador);
         }
+
     }
     
 }
