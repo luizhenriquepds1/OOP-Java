@@ -66,4 +66,9 @@ public class Pessoa {
     public double getPeso() {
         return this.peso;
     }
+
+
+    public double calcularInc() {
+        return peso / (altura * altura);
+    }
 }

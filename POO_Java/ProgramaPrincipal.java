@@ -20,7 +20,9 @@ public class ProgramaPrincipal {
 
         System.out.println(pessoa2.getAltura());
         System.out.println(pessoa2.getNome());
-        System.out.println("Meu nome é " + pessoa2.getNome());
+        System.out.println("Meu nome é " + pessoa2.getNome() + " e a pminha massa corporal é de: " + pessoa2.calcularInc());
+
+        System.out.println(pessoa1.calcularInc());
     }
 
 }
